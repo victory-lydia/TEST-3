@@ -1,0 +1,52 @@
+html{
+    background-color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li i {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul:hover {
+    background-color: rgb(141, 140, 140);
+    color: black;
+  }
+
+  .two{
+      background-color: lightblue;
+      display: flex;
+      color: white;
+  }
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container div{
+    text-align: center;
+    margin: 5px;
+}
+
+span{
+    display: flex;
+    font-size: 45px;
+}
+
+.flex-container img {
+    width: 250px;
+    height: 150px;
+    border-radius: 3px;
+    margin-left: 20px;
+    box-shadow: 4;
+}
